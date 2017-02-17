@@ -74,7 +74,10 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
+    oj (2.18.1)
     puma (3.6.2)
+    rabl (0.13.1)
+      activesupport (>= 2.3.14)
     rack (2.0.1)
     rack-cors (0.4.0)
     rack-test (0.6.3)
@@ -153,7 +156,9 @@ DEPENDENCIES
   factory_girl_rails
   faker
   listen (~> 3.0.5)
+  oj
   puma (~> 3.0)
+  rabl
   rack-cors
   rails (~> 5.0.1)
   rspec-rails (>= 3.5.0)
@@ -163,4 +168,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.10.6
+   1.13.7
